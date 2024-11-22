@@ -2,8 +2,8 @@ public class Test02 {
 
     public static void main(String[] args) {
 
-        String O = "O";
-        String X = "X";
+        String o = "O";
+        String 빈 = "X";
 
         /*
         String[] Al = new String[10];
@@ -24,17 +24,15 @@ for (int i = 0; i < Al2.length ; i++) { // 행을 위한 for문
 
     for(int j = 0 ; j < Al2[i].length ; j++){ // 열을 위한 for문
         if (j == 1) {
-            Al2[i][j] = (i%2 == 0) ? X : O;
+            Al2[i][j] = (i%2 == 0) ? "X" : "O";
         }else{
-            Al2[i][j] = (i%2 == 0) ? O : X;
+            Al2[i][j] = (i%2 == 0) ? "O" : "X";
         }
 
         System.out.print(Al2[i][j]);
     }
     System.out.println();
         }
-
-
 
 
     }}
