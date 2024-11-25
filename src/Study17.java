@@ -1,5 +1,5 @@
 public class Study17 {
-
+// 무한 재귀 호출
     public static void main(String[] args) {
 
         S17A s17a = new S17A();
